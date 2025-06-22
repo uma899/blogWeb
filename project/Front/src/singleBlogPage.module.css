@@ -1,0 +1,39 @@
+.header {
+    background-color: rgb(246, 246, 246);
+    height: 8vh;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.159);
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    padding-left: 5%;
+}
+
+.icon {
+    display: grid;
+    padding: 3px;
+    border-radius: 500px;
+    transition: 100ms;
+}
+
+.icon:active {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.img {
+    width: 48vh;
+    height: 27vh;
+    border-radius: 20px;
+    overflow: hidden;
+    /* background-color: aqua; */
+    border: 2px solid black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 8vh;
+    overflow: scroll;
+}

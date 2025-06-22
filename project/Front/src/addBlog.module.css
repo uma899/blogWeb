@@ -1,0 +1,28 @@
+.addBlog{
+    width: 100vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 8vh;
+}
+
+input {
+  width: 60%; /* Take full width of parent */
+  padding: 10px 15px; /* Top/bottom 10px, left/right 15px */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 8px; /* Slightly rounded corners */
+  font-size: 16px;
+  color: #333; /* Dark text color */
+  background-color: #fff; /* White background */
+  outline: none;
+}
+
+textarea {
+  outline: none;    
+    border: 1px solid #ccc; /* Light grey border */
+  border-radius: 8px; /* Slightly rounded corners */
+  font-size: 16px;
+    padding: 10px 15px; /* Top/bottom 10px, left/right 15px */
+}

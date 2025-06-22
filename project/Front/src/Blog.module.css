@@ -1,0 +1,8 @@
+.blog_container {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    padding-bottom: 10vh;
+}
